@@ -43,8 +43,9 @@ export default function ContactMe(props) {
         email,
         message,
       };
+
       setBool(true);
-      const res = await axios.post(`http://localhost:5000/contact`, data);
+      const res = await axios.post(`https://quiet-thicket-42396-020ef297ddce.herokuapp.com/contact`, data);
       if (name.length === 0 || email.length === 0 || message.length === 0) {
         setBanner(res.data.msg);
         toast.error(res.data.msg);
