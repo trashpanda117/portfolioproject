@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Typical from "react-typical";
 import axios from "axios";
 import { toast } from "react-toastify";
 
@@ -70,7 +69,7 @@ export default function ContactMe(props) {
       <div className="central-form">
         <div className="col">
           <h2 className="title">
-            <Typical loop={Infinity} steps={["Contact Me 📧", 1000]} />
+            <span>Contact Me 📧</span>
           </h2>{" "}
           <a href="https://www.linkedin.com/in/robert-nivon-69210720b/">
             <i className='fa fa-linkedin'></i>
