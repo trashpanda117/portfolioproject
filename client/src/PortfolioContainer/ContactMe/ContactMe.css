@@ -131,6 +131,7 @@
   .col i {
     padding: 7px;
     color: #fff;
+    transform: scale(1.25);
   }
   .col i:hover {
     transform: scale(1.5);

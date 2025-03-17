@@ -75,6 +75,9 @@ export default function ContactMe(props) {
           <a href="https://www.linkedin.com/in/robert-nivon-69210720b/">
             <i className='fa fa-linkedin'></i>
           </a>
+          <a href="https://github.com/trashpanda117">
+            <i className='fa fa-github'></i>
+          </a>
         </div>
         <div className="back-form">
           <div className="img-back">

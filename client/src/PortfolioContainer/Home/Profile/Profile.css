@@ -71,8 +71,9 @@
   
   .colz .colz-icon i {
     color: white;
-    padding: 8px;
+    padding: 20px;
     padding-left: 0px;
+    transform: scale(1.75);
   }
   .colz .cols-icon i:hover {
     transform: scale(1.5);
